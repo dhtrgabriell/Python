@@ -1,0 +1,6 @@
+print('========== DESAFIO 15 ==========')
+print('>> ALUGUEL DE CARRO <<')
+d = int(input('Quanto dias: '))
+km = float(input('Km rodados: '))
+v = (d * 60) + (km * 0.15)
+print('O valor a pagar será: R${}'.format(v))

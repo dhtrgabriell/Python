@@ -1,0 +1,6 @@
+print('========== DESAFIO 14 ==========')
+print('>> AUMENTO <<')
+nome = str(input('Nome do funcionário: '))
+sal = float(input('Salário atual: R$'))
+nsal = sal + (sal * 0.15)
+print('Novo salário: R${:.2f}'.format(nsal))

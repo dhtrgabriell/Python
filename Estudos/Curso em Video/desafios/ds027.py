@@ -1,0 +1,8 @@
+print('========== DESAFIO 27 ==========')
+print('>> Primeiro e último nome <<')
+nome = input('Digite seu nome completo: ').strip()
+print('-' * 32)
+divnome = nome.split()
+print('Primeiro nome: {}'.format(divnome[0]))
+print('Último nome: {}'.format(divnome[-1]))
+print('=' * 32)

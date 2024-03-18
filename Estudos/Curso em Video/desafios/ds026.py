@@ -1,0 +1,8 @@
+print('========== DESAFIO 26 ==========')
+print('>> Letra "A" <<')
+frase = input('Escreva uma frase: ').upper().strip()
+print('-' * 32)
+print('A letra "a" aparece {}x'.format(frase.count('A')))
+print('Sendo a primeira na posição {}'.format(frase.find('A')+1))
+print('E a última na posição {}'.format(frase.rfind('A')+1))
+print('=' * 32)

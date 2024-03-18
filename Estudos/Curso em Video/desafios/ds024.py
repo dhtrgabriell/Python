@@ -1,0 +1,4 @@
+city = input('Em que Estado você nasceu? ').strip()
+Brasil = '0Acre', '1Alagoas', '2Amapá', '3Amazonas', '4Bahia', '5Ceará', '6Distrito Federal', '7Espírito Santo', '8Goiás', '9Maranhão', '10Mato Grosso', '11Mato Grosso do Sul', '12Minar Gerais', '13Pará', '14Paraíba', '15Paraná', '16Pernambuco', '17Piauí', '18Rio de Janeiro', '19Rio Grande do Norte', '20Rio Grande do Sul', '21Rondônia', '22Roraima', '23Santa Catarina', '24São Paulo', '25Sergipe', '26Tocantins'
+print('Região Norte: {}'.format(city == Brasil[0, 2, 3, 13, 21, 22, 26]))
+print('Região Nordeste: {}'.format(city == Brasil[1, 4, 5, 9, 14, 16, 17, 19, 25]))

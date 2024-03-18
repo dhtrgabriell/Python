@@ -1,0 +1,6 @@
+print('========== DESAFIO 05 ==========')
+x = input('Digite algo: ')
+print('({}) Número.'.format(x))
+print(x.isnumeric())
+print('({}) Letra.'.format(x))
+print(x.isalpha())

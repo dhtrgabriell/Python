@@ -1,0 +1,12 @@
+print('========== DESAFIO 22 ==========')
+print('>> Manipulando caracteres <<')
+
+nome = input('Digite seu nome completo: ').strip()
+print('-' * 32)
+print('Analisando o seu nome...')
+print('Em Maiúculo: {}'.format(nome.upper()))
+print('Em Minúsculo: {}'.format(nome.lower()))
+print('Quantidade de letras: {}'.format(len(''.join(nome.split()))))
+div = nome.split()
+print('Seu primeiro nome é {} e possui {} letras.'.format(div[0], len(div[0])))
+print('=' * 32)
