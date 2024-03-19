@@ -18,6 +18,8 @@ print('Ano atual: {}'.format(atual))
 if idade < 18:
     d = 18 - idade
     print('Alistamento obrigatório daqui a {} anos'.format(d))
+    a = atual + d
+    print('em {}'.format(a))
 elif idade == 18:
     print('Alistamento obrigatório!')
     print('Dirija-se ao local mais próximo.')

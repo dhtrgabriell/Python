@@ -2,12 +2,14 @@ p = float(input('Valor do produto: R$'))
 
 print(' ')
 
-print('[0] À vista (-10%)')
-print('[1] À vista no Cartão (-5%)')
-print('[2] 2x no Cartão')
-print('[3] 3x no Cartão')
-print('[4] 4x no Cartão')
-print('[5] 5x no Cartão')
+print('''Forma de pagamento: 
+      
+      [ 0 ] À vista (-10%)
+      [ 1 ] À vista no Cartão (-5%)
+      [ 2 ] 2x no Cartão
+      [ 3 ] 3x no Cartão
+      [ 4 ] 4x no Cartão
+      [ 5 ] 5x no Cartão''')
 
 print(' ')
 

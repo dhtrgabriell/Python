@@ -4,13 +4,15 @@ ano = int(input('Ano de nascimento: '))
 
 idade = date.today().year - ano
 
+print('Atleta de {} anos'.format(idade))
+
 if idade <= 9:
-    print('Atleta MIRIM')
-elif idade > 9 and idade <= 14:
-    print('Atleta INFANTIL')
-elif idade > 14 and idade <= 19:
-    print('Atleta JUNIOR')
-elif idade == 20:
-    print('Atleta SÊNIOR')
+    print('Classificação: MIRIM')
+elif idade <= 14:
+    print('Classificação: INFANTIL')
+elif idade <= 19:
+    print('Classificação: JUNIOR')
+elif idade <= 25:
+    print('Classificação: SÊNIOR')
 else:
-    print('Atleta MASTER')
+    print('Classificação: MASTER')

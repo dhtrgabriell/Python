@@ -22,6 +22,8 @@ sleep(0.5)
 print('PÔ')
 sleep(1)
 
+print('')
+
 if player == comp:
     print('EMPATE!')
 elif player == 1 and comp == 3:
